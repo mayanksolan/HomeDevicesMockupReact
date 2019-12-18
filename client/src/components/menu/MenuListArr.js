@@ -1,8 +1,8 @@
-import lamp from "../../assets/lamp.png";
-import ac from "../../assets/ac.png";
-import lock from "../../assets/lock.png";
-import tv from "../../assets/tv.png";
-import thermostat from "../../assets/thermostat.png";
+import lamp from "../../assets/images/lamp.png";
+import ac from "../../assets/images/ac.png";
+import lock from "../../assets/images/lock.png";
+import tv from "../../assets/images/tv.png";
+import thermostat from "../../assets/images/thermostat.png";
 
 const menuArr = [
   { id: 1, name: "BED LAMP", where: "Bedroom", src: lamp },
