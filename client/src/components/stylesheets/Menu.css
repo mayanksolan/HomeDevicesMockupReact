@@ -1,0 +1,9 @@
+.menu-frame {
+  background-image: linear-gradient(
+    -180deg,
+    rgba(173, 107, 255) 0%,
+    rgba(116, 188, 247) 100%
+  );
+  width: 380px;
+  height: 1024px;
+}
