@@ -4,10 +4,12 @@ import menuArr from "./MenuListArr";
 export default class MenuList extends Component {
   render() {
     const menulistMainSelect = {
-      margin: "50px 107px auto 40px"
+      margin: "auto 107px auto 40px",
+      paddingTop: "30px"
     };
     const menulistMainNoSelect = {
-      margin: "50px 37px auto 140px"
+      margin: "50px 37px auto 140px",
+      paddingTop: "30px"
     };
     const menulistTextStyleSelect = {
       backgroundColor: "#ffffff",
