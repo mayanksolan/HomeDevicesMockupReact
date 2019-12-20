@@ -4,7 +4,7 @@ import menuArr from "./MenuListArr";
 export default class MenuList extends Component {
   render() {
     const menulistMainSelect = {
-      margin: "50px 40px auto 107px"
+      margin: "50px 107px auto 40px"
     };
     const menulistMainNoSelect = {
       margin: "50px 37px auto 140px"
@@ -21,7 +21,7 @@ export default class MenuList extends Component {
     };
     const menulistImageSelect = {
       position: "relative",
-      left: "170px",
+      left: "190px",
       bottom: "55px"
     };
     const menulistImageNoSelect = {
