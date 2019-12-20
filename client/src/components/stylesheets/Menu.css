@@ -7,3 +7,34 @@
   width: 380px;
   height: 1024px;
 }
+/* 
+.menulist-main {
+  text-align: center;
+} */
+
+.menulist-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menulist-name {
+  font-family: Montserrat-Bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 19px;
+}
+
+.menulist-where {
+  font-family: Montserrat-Regular;
+  color: #666666;
+  font-size: 15px;
+  letter-spacing: 0.47px;
+  line-height: 19px;
+}
+
+.menulist-image {
+  position: relative;
+  left: 170px;
+  bottom: 55px;
+}
