@@ -33,42 +33,44 @@ export default class MenuList extends Component {
     };
     console.log(menuArr);
     return (
-      <div>
-        {menuArr.map(item => (
-          <div
-            key={item.id}
-            style={
-              item.name === "BED LAMP"
-                ? menulistMainSelect
-                : menulistMainNoSelect
-            }
-          >
+      <div className="menulist_scroll">
+        <div className="card-home">
+          {menuArr.map(item => (
             <div
+              key={item.id}
               style={
                 item.name === "BED LAMP"
-                  ? menulistTextStyleSelect
-                  : menulistTextStyleNoSelect
+                  ? menulistMainSelect
+                  : menulistMainNoSelect
               }
             >
-              <div className="menulist-text">
-                <div className="menulist-name">{item.name}</div>
-                <div className="menulist-where">
-                  <span>In </span>
-                  {item.where}
-                </div>
-              </div>
-              <img
+              <div
                 style={
                   item.name === "BED LAMP"
-                    ? menulistImageSelect
-                    : menulistImageNoSelect
+                    ? menulistTextStyleSelect
+                    : menulistTextStyleNoSelect
                 }
-                src={item.src}
-                alt={item.name}
-              />
+              >
+                <div className="menulist-text">
+                  <div className="menulist-name">{item.name}</div>
+                  <div className="menulist-where">
+                    <span>In </span>
+                    {item.where}
+                  </div>
+                </div>
+                <img
+                  style={
+                    item.name === "BED LAMP"
+                      ? menulistImageSelect
+                      : menulistImageNoSelect
+                  }
+                  src={item.src}
+                  alt={item.name}
+                />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     );
   }

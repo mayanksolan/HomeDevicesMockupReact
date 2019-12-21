@@ -7,10 +7,30 @@
   width: 380px;
   height: 1024px;
 }
-/* 
-.menulist-main {
-  text-align: center;
+
+/* .menulist_scroll {
+  position: relative;
+  max-height: 1024px; 
+  float: left;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+@keyframes scroll {
+  95% {
+    top: -100%;
+  }
+  100% {
+    top: 0;
+  }
 } */
+
+.card-home {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  animation: scroll 10s linear 1s infinite;
+}
 
 .menulist-text {
   position: relative;
